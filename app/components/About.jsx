@@ -4,7 +4,10 @@ var React = require('react');
 // and doesn't keep track of any states), does exact same thing as above
 var About = () => {
   return (
-    <h3>About Component</h3>
+    <div>
+      <h3>About</h3>
+      <p>Welcome to the about page!</p>
+    </div>
   );
 };
 
